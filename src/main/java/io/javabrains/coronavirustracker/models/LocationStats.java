@@ -1,5 +1,8 @@
 package io.javabrains.coronavirustracker.models;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class LocationStats {
 
     private String state;
